@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lato&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,53 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --deep-pyrple: #7144d4;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+.open-sens {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-5 xl:px-10 2xl:px-5;
+  }
+  .btn-primary {
+    @apply text-base font-inter h-[33px] min-w-[89px]  font-medium  border-2 rounded-md bg-none hover:bg-white hover:text-[#7144D4]  transition	duration-700	ease-in	delay-150	hover:bg-none;
+  }
+  .btn-secondary {
+    @apply text-base font-inter min-w-[89px]  h-[33px]  text-[#7144D4]  font-medium  border-2 rounded-md bg-none hover:bg-transparent hover:text-white transition	duration-700	ease-in	delay-150	bg-white;
+  }
+  p {
+    @apply lg:text-[24px] font-normal leading-[29px] text-[#666666] font-inter;
+  }
+  .btn_primary {
+    @apply bg-[#7144D4] block  min-w-[250px] rounded-lg px-4 py-3 text-white text-2xl font-inter font-medium;
+  }
+  .heading {
+    @apply text-[34px] text-center lg:text-left font-Montserrat font-bold;
+  }
+  .bg-insert {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      #7144d4;
+  }
+  .team {
+    box-shadow: 0px 4px 4px rgba(196, 213, 96, 0.44),
+      inset 0px 2px 2px rgba(196, 213, 96, 0.27);
+    border-radius: 6px;
+  }
+}
+
+@layer utilities {
+  .shadow_tarif {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .shadow_tarif_card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,14 +63,4 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
