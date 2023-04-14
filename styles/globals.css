@@ -18,6 +18,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  @apply overflow-x-hidden;
+}
 @layer components {
   .container {
     @apply mx-auto px-5 xl:px-10 2xl:px-5;

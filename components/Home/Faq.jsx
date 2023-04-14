@@ -70,7 +70,7 @@ const Faq = () => {
             <div className="h-[3px] mb-2 w-full bg-[#D7DEF0]" />
           </div>
           {faqData.map((data, i) => (
-            <Accordion open={open === i + 1} animate={customAnimation}>
+            <Accordion key={i} open={open === i + 1} animate={customAnimation}>
               <AccordionHeader
                 className="!text-lg !text-black !font-inter !font-bold"
                 onClick={() => handleOpen(i + 1)}
