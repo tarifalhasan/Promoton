@@ -35,7 +35,7 @@ body {
     @apply lg:text-[24px] font-normal leading-[29px] text-[#666666] font-inter;
   }
   .btn_primary {
-    @apply bg-[#7144D4] block  min-w-[250px] rounded-lg px-4 py-3 text-white text-2xl font-inter font-medium;
+    @apply bg-[#7144D4] block  hover:bg-opacity-70  min-w-[250px] rounded-lg px-4 py-3 text-white text-2xl font-inter font-medium;
   }
   .heading {
     @apply text-[34px] text-center lg:text-left font-Montserrat font-bold;

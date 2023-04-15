@@ -49,7 +49,7 @@ const Team = () => {
 
       <div className="grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3">
         {Data.map((data, i) => (
-          <div className="team h-[370px] grid place-items-center">
+          <div key={i} className="team h-[370px] grid place-items-center">
             <div className=" space-y-5">
               <Image
                 className=" max-w-[145px] mx-auto"

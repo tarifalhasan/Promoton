@@ -5,10 +5,10 @@ import { Button } from '@material-tailwind/react';
 
 const Hero = () => {
   return (
-    <div className="flex gap-16 py-16 container items-center justify-between flex-col lg:flex-row">
+    <div className="flex gap-16 py-16 overflow-x-hidden container items-center justify-between flex-col lg:flex-row">
       <div
         data-aos="fade-right"
-        className="basis-[60%] overflow-x-hidden space-y-3 md:space-y-5 lg:space-y-14"
+        className="basis-[60%]  space-y-3 md:space-y-5 lg:space-y-14"
       >
         <h1
           data-aos="fade-right"
