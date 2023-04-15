@@ -9,6 +9,7 @@ import Faq from '@/components/Home/Faq';
 import Contact from '@/components/Home/Contact';
 import Footer from '@/components/Footer';
 import Layout from '@/components/Layout';
+import Mailchimp from '@/components/Mailchimp';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +21,8 @@ export default function Home() {
       <Services />
       <HowItWork />
       <Faq />
-      <Contact />
+      {/* <Contact /> */}
+      <Mailchimp />
     </Layout>
   );
 }
