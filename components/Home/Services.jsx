@@ -24,9 +24,10 @@ const Services = () => {
     <section className="bg-[#7144D4] py-16 text-white mb-16">
       <div className="container space-y-5">
         <div className="">
-          <h2 className="text-center   relative before:absolute before:top-[110%] before:transform before:translate-x-[21%]  before:w-[100px] before:h-[5px] before:bg-white before:rounded-md font-Montserrat heading">
+          <h2 className="text-center   relative  font-Montserrat heading">
             Services
           </h2>
+          <div className="h-[5px] w-[107px] mx-auto bg-white rounded-md"></div>
         </div>
         <p className="text-white text-center py-5">
           Connect with Brands to monetize your niched audience Match with

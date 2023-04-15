@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="container px-0 lg:px-16 flex justify-center  mb-16  rounded-lg">
-      <div className="  flex flex-col py-4 px-10 bg-[#F3F5F6]  lg:max-w-[914px]  w-full md:py-8 mt-8 md:mt-0">
+      <div className="  flex flex-col py-4 px-3 md:px-10 bg-[#F3F5F6]  lg:max-w-[914px]  w-full md:py-8 mt-8 md:mt-0">
         <h2 className=" mb-5 text-center  text-xl font-bold font-inter text-[#263238]">
           Send us a messageand we’ll get back to you shortly.
         </h2>
@@ -45,7 +45,9 @@ const Contact = () => {
           />
         </div>
         <div className="lg:flex justify-end">
-          <button className="btn_primary lg:min-w-[180px]">Send</button>
+          <button className="btn_primary min-w-[120px] py-2 text-base lg:min-w-[180px]">
+            Send
+          </button>
         </div>
       </div>
     </div>

@@ -12,9 +12,10 @@ const AbouUs = () => (
         </div>
         <div className=" space-y-5">
           <div className=" pb-10">
-            <h2 className="text-center   relative before:absolute before:top-[110%] before:transform before:translate-x-[21%]  before:w-[270px] before:h-[5px] before:bg-[#7144D4] before:rounded-md font-Montserrat heading">
+            <h2 className="text-center   before: before:rounded-md font-Montserrat heading">
               What Is PromoTone?
             </h2>
+            <div className=" max-w-[240px] lg:max-w-[308px] w-full mx-auto h-[5px] bg-[#7144D4] "></div>
           </div>
           <div className=" space-y-2">
             <p>

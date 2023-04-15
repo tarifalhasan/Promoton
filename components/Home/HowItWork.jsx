@@ -7,11 +7,12 @@ const HowItWork = () => {
     <section>
       <div className="container py-16">
         <div>
-          <h2 className="text-center    relative before:absolute before:top-[110%] before:transform before:translate-x-[21%]  before:w-[170px] before:h-[5px] before:bg-[#7144D4] before:rounded-md font-Montserrat heading">
+          <h2 className="text-center   relative   before:bg-[#]  font-Montserrat heading">
             How It Works
           </h2>
+          <div className="lg: w-[176px] bg-[#7144D4] h-[5px] rounded-md mx-auto"></div>
         </div>
-        <div className="flex pt-16 items-center gap-10 flex-col lg:flex-row">
+        <div className="flex pt-10 items-center gap-10 flex-col lg:flex-row">
           <div className=" space-y-10 basis-[65%]">
             <h2 className="heading font-inter">
               Steps On How To Use <br className="hidden lg:block" /> Our Mobile

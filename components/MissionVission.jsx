@@ -14,7 +14,7 @@ const MissionVission = () => {
         <h2 className=" text-4xl text-center group-hover/item:text-white font-Montserrat font-bold">
           Our Mission
         </h2>
-        <p className="text-black group-hover/item:text-white ">
+        <p className="text-black text-center lg:text-left group-hover/item:text-white ">
           Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
           vulputate consequat ornare imperdiet. Interdum proin tortor nisl
           hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus
@@ -33,7 +33,7 @@ const MissionVission = () => {
         <h2 className=" text-4xl text-center group-hover/item:text-white font-Montserrat font-bold">
           Our Vision
         </h2>
-        <p className="text-black group-hover/item:text-white ">
+        <p className="text-black text-center lg:text-left group-hover/item:text-white ">
           Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
           vulputate consequat ornare imperdiet. Interdum proin tortor nisl
           hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus
