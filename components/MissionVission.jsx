@@ -15,11 +15,9 @@ const MissionVission = () => {
           Our Mission
         </h2>
         <p className="text-black text-center lg:text-left group-hover/item:text-white ">
-          Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
-          vulputate consequat ornare imperdiet. Interdum proin tortor nisl
-          hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus
-          eu odio bibendum. Neque arcu egestas et commodo a maecenas in nec
-          elit.
+          Our mission is to revolutionize the way creators and small businesses
+          collaborate, by providing a seamless, intuitive platform that fosters
+          meaningful connections and drives mutual growth.
         </p>
       </div>
       <div className="bg-[#FFFFFF] group/item hover:bg-[#7144D4] shadow_tarif_card min-h-[454px] space-y-10 text-black p-8 rounded-lg">
@@ -34,11 +32,10 @@ const MissionVission = () => {
           Our Vision
         </h2>
         <p className="text-black text-center lg:text-left group-hover/item:text-white ">
-          Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
-          vulputate consequat ornare imperdiet. Interdum proin tortor nisl
-          hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus
-          eu odio bibendum. Neque arcu egestas et commodo a maecenas in nec
-          elit.
+          We envision a world where social media creators along with small
+          businesses and startups come together to create a thriving marketing
+          ecosystem, fueling innovation, creativity, and success on a global
+          scale.
         </p>
       </div>
     </div>

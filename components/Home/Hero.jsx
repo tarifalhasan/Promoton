@@ -14,14 +14,10 @@ const Hero = () => {
           data-aos="fade-right"
           className="lg:text-[64px] text-center lg:text-left font-inter font-bold lg:leading-[65px] md:text-[40px] text-[25px]"
         >
-          Get Paid - Promote <br className="hidden md:block" /> local brands
+          "Empowering Creators, Boosting Businesses:
         </h1>
         <p data-aos="fade-right" className="pb-5 text-center lg:text-left">
-          Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
-          vulputate consequat ornare imperdiet. Interdum proin tortor nisl
-          hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus
-          eu odio bibendum. Neque arcu egestas et commodo a maecenas in nec
-          elit.
+          The Matchmaking Platform for Social Media Creators and Startups
         </p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-6  items-center">
           <a
