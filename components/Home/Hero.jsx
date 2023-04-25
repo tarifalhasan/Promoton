@@ -1,9 +1,20 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import { QrCode } from '../svg/svg';
 import { Button } from '@material-tailwind/react';
+import QrCodeScanner from '../QrCodeScanner';
+import { useRouter } from 'next/router';
 
 const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const showQrCode = () => {
+    setIsOpen(pre => !pre);
+
+    router.push('/scan');
+  };
+
+  const router = useRouter();
+
   return (
     <div className="flex gap-16 py-16 overflow-x-hidden container items-center justify-between flex-col lg:flex-row">
       <div
@@ -93,7 +104,9 @@ const Hero = () => {
       <div data-aos="fade-left" className=" ">
         <QrCode />
         <div className=" mt-16 ">
-          <button className="btn_primary mx-auto ">Scan Me</button>
+          <button onClick={showQrCode} className="btn_primary mx-auto ">
+            Scan Me
+          </button>
         </div>
       </div>
     </div>

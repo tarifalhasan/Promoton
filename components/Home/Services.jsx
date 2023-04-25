@@ -44,10 +44,12 @@ const Services = () => {
                 {data.icon}
               </div>
 
-              <h2 className="lg:text-[34px] pt-2 font-inter font-medium leading-[0] ">
+              <h2 className="lg:text-[34px] pt-2  font-medium leading-[0] ">
                 {data.label}
               </h2>
-              <span className=" block pt-1 text-base">{data.desc}</span>
+              <span className=" block pt-1 text-base font-normal">
+                {data.desc}
+              </span>
             </div>
           ))}
         </div>

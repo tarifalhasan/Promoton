@@ -18,6 +18,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+* > * {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   @apply overflow-x-hidden;
 }
@@ -77,4 +81,8 @@ body {
   padding: 8px !important;
   margin: 0 auto 100px;
   max-width: 700px;
+}
+
+.footerBarContent-FG6O1 {
+  display: none !important;
 }
