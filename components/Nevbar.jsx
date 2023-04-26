@@ -41,26 +41,6 @@ export default function Navigation() {
           About
         </Link>
       </Typography>
-      <Typography
-        as="li"
-        variant="lead"
-        color="white"
-        className="p-1 font-bold font-inter hover:text-pink-400 transition	duration-700	ease-in	delay-150"
-      >
-        <a href="#" className="flex items-center">
-          About Beta
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="lead"
-        color="white"
-        className="p-1 font-bold font-inter hover:text-pink-400 transition	duration-700	ease-in	delay-150"
-      >
-        <a href="#" className="flex items-center">
-          Contact Us
-        </a>
-      </Typography>
     </ul>
   );
 
@@ -137,7 +117,7 @@ export default function Navigation() {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+            <span>Login</span>
           </Button>
         </MobileNav>
       </Navbar>

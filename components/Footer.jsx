@@ -69,10 +69,10 @@ const Footer = () => {
                 <Link href="/about">About Us</Link>
               </li>
               <li className="text-lg  font-Montserrat font-light">
-                <Link href="/about">Explore</Link>
+                <Link href="#qr_code">Explore</Link>
               </li>
               <li className="text-lg  font-Montserrat font-light">
-                <Link href="/about">How it works</Link>
+                <Link href="#how_it_work">How it works</Link>
               </li>
             </ul>
           </div>

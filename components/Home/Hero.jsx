@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import React, { useState } from 'react';
 import { QrCode } from '../svg/svg';
-import { Button } from '@material-tailwind/react';
-import QrCodeScanner from '../QrCodeScanner';
+
 import { useRouter } from 'next/router';
 
 const Hero = () => {
@@ -16,11 +14,11 @@ const Hero = () => {
   const router = useRouter();
 
   return (
-    <div className="flex gap-16 py-16 overflow-x-hidden container items-center justify-between flex-col lg:flex-row">
-      <div
-        data-aos="fade-right"
-        className="basis-[60%]  space-y-3 md:space-y-5 lg:space-y-14"
-      >
+    <div
+      id="qr_code"
+      className="flex gap-16 py-16 overflow-x-hidden container items-center justify-between flex-col lg:flex-row"
+    >
+      <div className="basis-[60%]  space-y-3 md:space-y-5 lg:space-y-14">
         <h1
           data-aos="fade-right"
           className="lg:text-[64px] text-center lg:text-left font-inter font-bold lg:leading-[65px] md:text-[40px] text-[25px]"
@@ -101,7 +99,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div data-aos="fade-left" className=" ">
+      <div className=" ">
         <QrCode />
         <div className=" mt-16 ">
           <button onClick={showQrCode} className="btn_primary mx-auto ">

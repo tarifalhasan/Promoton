@@ -4,7 +4,7 @@ import iphone from '/public/iphone.png';
 import Image from 'next/image';
 const HowItWork = () => {
   return (
-    <section>
+    <section id="how_it_work">
       <div className="container py-16">
         <div>
           <h2 className="text-center   relative   before:bg-[#]  font-Montserrat heading">
