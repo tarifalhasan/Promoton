@@ -1,3 +1,4 @@
+import Layout from '@/components/Layout';
 import React, { useState } from 'react';
 
 import { QrReader } from 'react-qr-reader';
@@ -6,9 +7,9 @@ const Scanner = () => {
   const [data, setData] = useState('No result please scan');
 
   return (
-    <>
+    <Layout>
       <QrReader
-        facingMode="user"
+        constraints={(facingMode = 'user')}
         onResult={(result, error) => {
           if (!!result) {
             setData(result?.text);
@@ -21,7 +22,7 @@ const Scanner = () => {
         style={{ width: '100%' }}
       />
       <p className=" text-lg text-center font-normal">{data}</p>
-    </>
+    </Layout>
   );
 };
 
